@@ -1,0 +1,33 @@
+﻿var_g1,var_name,sens,extr,value
+gen_in,time horizon,,,78
+gen_in,cycle,,,1
+gen_in,perspective,,,societal
+discount,cost,x1,,0.03
+discount,utility,x2,,0.03
+age,median,,,57
+tree_in,early,,,0.411
+tree_in,late,x3,,0.589
+tree_in,s_pet1,x4,y1,0.9518
+tree_in,s_pet2,x5,y2,0.945
+tree_in,s_ct1,x6,y3,0.9398
+tree_in,s_ct2,x7,y4,0.8727
+prob_in,tf,x8,,0.949611
+prob_in,tp,x9,,0.043389
+prob_in,td,,,0.007
+prob_in,fd,,,0.007
+prob_in,ff,x10,,0.93451
+prob_in,fp,x11,y5,0.05849
+prob_in,pd,x12,,0.046765
+prob_in,pf,x13,y6,0.505318
+prob_in,pp,x14,,0.447917
+cost_in,pet,x15,y7,45000
+cost_in,ct,x16,y8,35100
+cost_in,fistline,x17,,181530
+cost_in,prog_free_1,x18,y9,36590
+cost_in,prog_free_2,x19,y10,1490
+cost_in,prog_1,x20,y11,150864
+cost_in,prog_2,x21,y12,59744
+util_in,therapy,x22,,0.81
+util_in,prog_free,x23,,0.83
+util_in,prog ,x24,,0.59
+util_in,death,,,0

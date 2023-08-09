@@ -1,0 +1,16 @@
+﻿parameter,distribution,mean,se,alpha,beta
+Proportion late,beta,0.589,0.0101,1389,969
+Stage I-II & PET/CT I-II,beta,0.9518,0.0234,79,4
+Stage III-IV & PET/CT III-IV,beta,0.945,0.0217,103,6
+Stage I-II & CT I-II,beta,0.9398,0.026,78,5
+Stage III-IV & CT III-IV,beta,0.8727,0.0316,96,14
+Cost of PET/CT for staging,gamma,45000,9000,25,1800
+Cost of CT for staging,gamma,35100,7020,25,1404
+Annual cost of firstline therapy,gamma,251280,50256,25,10051
+Annual cost of prog free (first two years),gamma,36590,7318,25,1464
+Annual cost of prog free (years after),gamma,1490,298,25,60
+Annual cost of prog (first two years),gamma,150864,30173,25,6035
+Annual cost of prog (years after),gamma,59744,11949,25,2390
+Firstline therapy utiltiy,beta,0.81,0.016,486,114
+Progression free utility,beta,0.83,0.012,812,166
+Progression utility,beta,0.59,0.093,16,11
